@@ -30,40 +30,10 @@
             filePath = "LMessenger/Service/AuthenticationService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "signInWithGoogle(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3AC77283-7473-436A-839E-69A0058966EF - ac121fe53f92fbee"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LMessenger.AuthenticationService.signInWithGoogle(completion: (Swift.Result&lt;LMessenger.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "LMessenger.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hong_yehee/Desktop/%E1%84%91%E1%85%A2%E1%84%8F%E1%85%A2%E1%86%B7/3-LMessenger/LMessenger/Service/AuthenticationService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60">
-               </Location>
-               <Location
-                  uuid = "3AC77283-7473-436A-839E-69A0058966EF - ac121fe53f92fbee"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LMessenger.AuthenticationService.signInWithGoogle(completion: (Swift.Result&lt;LMessenger.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "LMessenger.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hong_yehee/Desktop/%E1%84%91%E1%85%A2%E1%84%8F%E1%85%A2%E1%86%B7/3-LMessenger/LMessenger/Service/AuthenticationService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -76,8 +46,8 @@
             filePath = "LMessenger/Service/AuthenticationService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "signInWithGoogle(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -92,40 +62,10 @@
             filePath = "LMessenger/Service/AuthenticationService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "authenticateUserWithFirebase(credential:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A318AA79-86B9-420A-92D0-14EFBF39C61F - 21be7ee986fe0343"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LMessenger.AuthenticationService.authenticateUserWithFirebase(credential: FirebaseAuth.AuthCredential, completion: (Swift.Result&lt;LMessenger.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "LMessenger.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hong_yehee/Desktop/%E1%84%91%E1%85%A2%E1%84%8F%E1%85%A2%E1%86%B7/3-LMessenger/LMessenger/Service/AuthenticationService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74">
-               </Location>
-               <Location
-                  uuid = "A318AA79-86B9-420A-92D0-14EFBF39C61F - a0eac9e36c10047c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LMessenger.AuthenticationService.authenticateUserWithFirebase(credential: FirebaseAuth.AuthCredential, completion: (Swift.Result&lt;LMessenger.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "LMessenger.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hong_yehee/Desktop/%E1%84%91%E1%85%A2%E1%84%8F%E1%85%A2%E1%86%B7/3-LMessenger/LMessenger/Service/AuthenticationService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -138,8 +78,8 @@
             filePath = "LMessenger/Service/AuthenticationService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
             landmarkName = "authenticateUserWithFirebase(credential:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,54 +94,10 @@
             filePath = "LMessenger/Service/AuthenticationService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "signInWithGoogle()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AF385D05-844B-4C72-AF9E-209B2EB3FB60 - 42eb4e5b7109ef58"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;LMessenger.User, Swift.Error&gt;) -&gt; () in closure #1 ((Swift.Result&lt;LMessenger.User, LMessenger.ServiceError&gt;) -&gt; ()) -&gt; () in LMessenger.AuthenticationService.signInWithGoogle() -&gt; Combine.AnyPublisher&lt;LMessenger.User, LMessenger.ServiceError&gt;"
-                  moduleName = "LMessenger.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hong_yehee/Desktop/%E1%84%91%E1%85%A2%E1%84%8F%E1%85%A2%E1%86%B7/3-LMessenger/LMessenger/Service/AuthenticationService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26">
-               </Location>
-               <Location
-                  uuid = "AF385D05-844B-4C72-AF9E-209B2EB3FB60 - 42eb4e5b7109ef58"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;LMessenger.User, Swift.Error&gt;) -&gt; () in closure #1 ((Swift.Result&lt;LMessenger.User, LMessenger.ServiceError&gt;) -&gt; ()) -&gt; () in LMessenger.AuthenticationService.signInWithGoogle() -&gt; Combine.AnyPublisher&lt;LMessenger.User, LMessenger.ServiceError&gt;"
-                  moduleName = "LMessenger.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hong_yehee/Desktop/%E1%84%91%E1%85%A2%E1%84%8F%E1%85%A2%E1%86%B7/3-LMessenger/LMessenger/Service/AuthenticationService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26">
-               </Location>
-               <Location
-                  uuid = "AF385D05-844B-4C72-AF9E-209B2EB3FB60 - 42eb4e5b7109ef58"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;LMessenger.User, Swift.Error&gt;) -&gt; () in closure #1 ((Swift.Result&lt;LMessenger.User, LMessenger.ServiceError&gt;) -&gt; ()) -&gt; () in LMessenger.AuthenticationService.signInWithGoogle() -&gt; Combine.AnyPublisher&lt;LMessenger.User, LMessenger.ServiceError&gt;"
-                  moduleName = "LMessenger.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hong_yehee/Desktop/%E1%84%91%E1%85%A2%E1%84%8F%E1%85%A2%E1%86%B7/3-LMessenger/LMessenger/Service/AuthenticationService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -214,8 +110,8 @@
             filePath = "LMessenger/View/Authentication/AuthenticationViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "send(action:)"
             landmarkType = "7">
          </BreakpointContent>

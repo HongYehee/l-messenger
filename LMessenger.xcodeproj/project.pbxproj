@@ -16,6 +16,8 @@
 		723ABDA42AFFF1B900C260F1 /* LMessengerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723ABDA32AFFF1B900C260F1 /* LMessengerUITestsLaunchTests.swift */; };
 		723ABDB22AFFF1F000C260F1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723ABDB12AFFF1F000C260F1 /* Colors.xcassets */; };
 		72E4BEFC2B00B871007A1060 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E4BEFB2B00B871007A1060 /* Color+Extension.swift */; };
+		8D9659712CEC239200C16373 /* RandomNonceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D96596F2CEC239200C16373 /* RandomNonceString.swift */; };
+		8D9659722CEC239200C16373 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9659702CEC239200C16373 /* SHA256.swift */; };
 		8DB8EAEC2CE1E65F00E9B014 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8DB8EAEB2CE1E65F00E9B014 /* FirebaseAuth */; };
 		8DB8EAEE2CE2E2AB00E9B014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB8EAED2CE2E2AB00E9B014 /* AppDelegate.swift */; };
 		8DB8EAF02CE2E3B900E9B014 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DB8EAEF2CE2E3B900E9B014 /* GoogleService-Info.plist */; };
@@ -63,6 +65,9 @@
 		723ABDA32AFFF1B900C260F1 /* LMessengerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMessengerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		723ABDB12AFFF1F000C260F1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		72E4BEFB2B00B871007A1060 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		8D96596A2CEC20C000C16373 /* LMessenger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LMessenger.entitlements; sourceTree = "<group>"; };
+		8D96596F2CEC239200C16373 /* RandomNonceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNonceString.swift; sourceTree = "<group>"; };
+		8D9659702CEC239200C16373 /* SHA256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
 		8DB8EAED2CE2E2AB00E9B014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB8EAEF2CE2E3B900E9B014 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8DB8EAF12CE2E5D400E9B014 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
@@ -129,6 +134,7 @@
 		723ABD852AFFF1B800C260F1 /* LMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				8D96596A2CEC20C000C16373 /* LMessenger.entitlements */,
 				723ABD862AFFF1B800C260F1 /* LMessengerApp.swift */,
 				8DB8EAED2CE2E2AB00E9B014 /* AppDelegate.swift */,
 				8DE47C612CE1DE5700593E32 /* Info.plist */,
@@ -137,6 +143,7 @@
 				8DE47C6C2CE1E1C100593E32 /* View */,
 				8DB8EB012CE3567800E9B014 /* Model */,
 				8DE47C692CE1E12F00593E32 /* Service */,
+				8D96596B2CEC234D00C16373 /* Util */,
 				72E4BEFA2B00B871007A1060 /* Extension */,
 				723ABDB02AFFF1D800C260F1 /* Resource */,
 				723ABD8C2AFFF1B900C260F1 /* Preview Content */,
@@ -185,6 +192,15 @@
 				72E4BEFB2B00B871007A1060 /* Color+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		8D96596B2CEC234D00C16373 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8D96596F2CEC239200C16373 /* RandomNonceString.swift */,
+				8D9659702CEC239200C16373 /* SHA256.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		8DB8EAF32CE2E8C900E9B014 /* Login */ = {
@@ -390,6 +406,8 @@
 				8DB8EB032CE3569300E9B014 /* User.swift in Sources */,
 				8DB8EAF72CE2E92B00E9B014 /* LoginIntroView.swift in Sources */,
 				8DE47C6F2CE1E20000593E32 /* AuthenticationViewModel.swift in Sources */,
+				8D9659712CEC239200C16373 /* RandomNonceString.swift in Sources */,
+				8D9659722CEC239200C16373 /* SHA256.swift in Sources */,
 				8DE47C6B2CE1E13D00593E32 /* Services.swift in Sources */,
 				8DE47C682CE1E10600593E32 /* DIContainer.swift in Sources */,
 				723ABD892AFFF1B800C260F1 /* AuthenticatedView.swift in Sources */,
@@ -558,10 +576,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = LMessenger/LMessenger.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LMessenger/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LGX4B4WC66;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LMessenger/Info.plist;
@@ -574,8 +595,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.LMessenger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reti.EUMMEYO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = EUMMEYO_Development;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -587,10 +610,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = LMessenger/LMessenger.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LMessenger/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LGX4B4WC66;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LMessenger/Info.plist;
@@ -603,8 +629,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.LMessenger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reti.EUMMEYO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = EUMMEYO_Development;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
